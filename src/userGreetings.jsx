@@ -6,7 +6,7 @@ function UserGreetings(props)
   return props.isLoggedIn ? welcomeMessage : notLocggedInMessage;
 };
 
-UserGreetings.proptypes = {
+UserGreetings.propType = {
   isLoggedIn: PropTypes.bool,
   userName: PropTypes.string,
 };
